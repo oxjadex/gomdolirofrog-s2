@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NewJeans - Supernatural</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="mockup">
+        <div class="phone-content">
+          <div class="player">
+            <div class="status-bar">
+              <span>23:52</span>
+              <div class="status">
+                <img src="./image/assets/status-bar.png" />
+              </div>
+            </div>
+            <div class="music">
+              <img src="./image/assets/playing-cover-2.png" />
+              <div class="music-text-container">
+                <div class="Supernatural">Supernatural</div>
+                <div class="Newjeans">NewJeans</div>
+              </div>
+              <div class="music-icon-container">
+                <audio id="audio">
+                  <source
+                    id="audio-1"
+                    src="./audio/히사이시 조 - 인생의 회전목마 (Orchestra Ver.).mp3"
+                  />
+                </audio>
+                <button class="music-on" onclick="playPause()">
+                  <img id="audio-play" src="./image/assets/btn-play.png" />
+                  <img
+                    style="display: none"
+                    id="audio-pause"
+                    src="./image/assets/btn-pause.png"
+                  />
+                </button>
+                <img src="./image/assets/btn-next.png" />
+              </div>
+            </div>
+            <div class="swiper-container">
+              <div class="album">
+                <img src="./image/assets/card-thumb-2.jpg" />
+                <div class="text-container">
+                  <p class="up-title">New Album</p>
+                  <p class="title">‘Supernatural’ 발매!</p>
+                  <p class="content">My feeling’s getting deeper</p>
+                  <p class="content">‘Supernatural’ Music Video 보러 가기!</p>
+                </div>
+              </div>
+              <div class="album">
+                <img src="./image/assets/card-thumb-2.jpg" />
+                <div class="text-container">
+                  <p class="up-title">New Album</p>
+                  <p class="title">‘Supernatural’ 발매!</p>
+                  <p class="content">My feeling’s getting deeper</p>
+                  <p class="content">‘Supernatural’ Music Video 보러 가기!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
